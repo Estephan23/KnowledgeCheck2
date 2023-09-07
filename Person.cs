@@ -8,9 +8,9 @@ namespace KnowledgeCheck2
 {
     internal class Person
     {
-        public string FirstName {g;   };
-        public string LastName;
-        public int Age;
-        public string Gender;
+        public string? FirstName { get; set;}
+        public string? LastName { get; set;}
+        public int Age { get; set;}
+        public string? Gender { get; set;}
     }
 }
