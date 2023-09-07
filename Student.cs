@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace KnowledgeCheck2
 {
-    internal class Student
+    internal class Student : Person
     {
         public int StudentID { get; set; }
-        public int GPA { get; set; }
-
+        public decimal GPA { get; set; }
+        public string Major { get; set; }
     }
 }
